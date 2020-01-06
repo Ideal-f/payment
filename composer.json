@@ -1,0 +1,26 @@
+{
+    "name": "ideal-f/payment",
+    "type": "library",
+    "keywords": [
+        "Tools",
+        "Library"
+    ],
+    "homepage": "https://github.com/Ideal-f/payment",  
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ideal-f",
+            "email": "2425379648@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Payment\\": "src/"
+        }
+    }
+}
